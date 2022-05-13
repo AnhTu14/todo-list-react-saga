@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  color: #333;
 }
 
 .App-logo {
@@ -36,4 +37,122 @@
   100% {
     transform: translateY(0px);
   }
+}
+.main {
+  display: flex;
+  min-height: 100vh;
+}
+.sider-bar {
+  width: 15%;
+  border-right: 1px solid #ccc;
+}
+.content {
+  width: 85%;
+  padding: 10px 20px;
+}
+.admin .header .navbar {
+  background-color: #0a58ca !important;
+  padding: 5px 20px;
+  justify-content: space-between;
+}
+.sider-bar .list-group-item {
+  padding: 0.5rem 1rem;
+  color: #333;
+  text-decoration: none;
+  background-color: #fff;
+  border: none;
+  border-radius: none !important;
+  -webkit-border-radius: none !important;
+  -moz-border-radius: none !important;
+  -ms-border-radius: none !important;
+  -o-border-radius: none !important;
+  cursor: pointer;
+  text-align: left;
+}
+.sider-bar .list-group-item:first-child {
+  border-top-left-radius: unset !important;
+  border-top-right-radius: unset !important;
+}
+.card-body {
+  color: #333;
+}
+.card .card-title {
+  color: #343a40;
+  margin-bottom: 0.75rem;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 1.125rem;
+}
+.card .card-description {
+  margin-bottom: 1.5rem;
+  color: #76838f;
+}
+
+.table-responsive {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.table thead th {
+  border-top: 0;
+  border-bottom-width: 1px;
+  font-weight: 500;
+}
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #ebedf2;
+}
+.table td,
+.table th {
+  vertical-align: middle;
+  font-size: 0.875rem;
+  line-height: 1;
+  white-space: nowrap;
+  padding: 0.9375rem;
+}
+.text-left {
+  text-align: left;
+  font-size: 30px;
+}
+.list-page {
+}
+.list-page .head {
+  display: flex;
+  justify-content: space-between;
+}
+.list-page .head {
+  display: flex;
+  justify-content: space-between;
+}
+.list-page .head .title {
+  font-size: 20px;
+}
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}
+.goldenrod {
+  color: goldenrod;
+}
+.ml-3 {
+  margin-left: 20px;
+}
+.MuiTypography-h4 {
+  font-size: 1.75rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.235;
+  letter-spacing: 0.00735em;
+  text-align: left;
+}
+.MuiInputLabel-outlined.MuiInputLabel-marginDense {
+  background: #fff;
+  padding: 0 3px;
+}
+.radio-form {
+  width: 100%;
+  text-align: left;
 }
